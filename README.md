@@ -3,10 +3,10 @@ fuzzy-sansa
 
 Hi welcome to the test suite.
 To run this please place this folder inside your proj3 folder
-Then copy (cp) your cpu.circ, alu.circ, and regfile.circ into this folder.
+Then copy (cp) your cpu.circ, alu.circ, and Regfile.circ into this folder.
 Run the commands: 
-java -jar logisim-gener
-ic-2.7.1.jar addi.circ -tty table > my_addi.out
+
+java -jar logisim-generic-2.7.1.jar addi.circ -tty table > my_addi.out
 
 diff addi.out my_addi.out
 
