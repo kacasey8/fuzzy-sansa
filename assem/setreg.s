@@ -1,0 +1,3 @@
+	setreg 0x2
+	ori $r1, $r1, 0x4
+	setreg 0x1
