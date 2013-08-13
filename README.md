@@ -14,8 +14,6 @@ The circ files are modified cpu-harness.cache files
 The .out files are the results running through my proj3 files
 The java command generates a my_*.out, which is the results of running through your circuit
 The diff command will list any differences in the outputs.
-Unfortunately no bash script, so you'll have to test each function by hand, but it shouldn't be too bad.
-If you don't fail, the diff will report nothing and you can go on to the next test.
-If you fail, try opening the .circ file with logicism and manually walk through the test.
-
 use bash test.sh or bash mactest.sh to run all the tests at once.
+If you don't fail, the diff will report nothing and you can go on to the next test.
+If you fail, try opening the .circ file with logicism and manually walk through the test for logical errors.
